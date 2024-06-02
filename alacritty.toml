@@ -1,12 +1,16 @@
+# for setup run:
+# brew install font-hack-nerd-font
+# git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
+
 # themes from https://github.com/alacritty/alacritty-theme
 
 import = ["~/.config/alacritty/themes/themes/gruvbox_dark.toml"]
 
 [font]
-size = 40
+size = 12
 
 [font.normal]
-family = "UbuntuMono Nerd Font"
+family = "Hack Nerd Font"
 
 [window]
 decorations = "none"
